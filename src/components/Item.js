@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Item({ name, category }) {
-  // Create a state variable 'inCart' that can be toggled between true and false
+ 
   const [inCart, setInCart] = useState(false);
 
   // Use the 'inCart' state variable to determine the className and button text
